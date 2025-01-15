@@ -7,5 +7,6 @@ int main(){
     scanf("%d", &temp);
     int high = 85;
     int low = 70;
-    
+    printf("%d", temp > low && temp < high);
+    printf("%d", temp < low || temp < high);
 }
