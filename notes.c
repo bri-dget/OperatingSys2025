@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h> //allows for boolean
 int main()
 { 
     //printf("Hello World\n");
@@ -55,6 +56,9 @@ int main()
 
     const int MINUTESPERHOUR = 60; //common to use capitals for constants
     const float PI = 3.14;
+
+    bool isItJanurary = true;
+    bool isItFeburary = false;
 
     return 0;
     }
