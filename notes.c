@@ -66,5 +66,12 @@ int main()
     for (int j = 1; j <= 3; ++j){
         printf("Inner: %d\n", j);
     }
+
+    int myNumbers[] = {25, 50, 75, 100};
+    int numbers[4];
+    numbers[0] = 1;
+    int size = sizeof(myNumbers); //prints 20 because there are 20 bytes
+    int length = sizeof(myNumbers) / sizeof(myNumbers[0]);
+
     return 0;
     }
