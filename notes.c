@@ -71,7 +71,22 @@ int main()
     int numbers[4];
     numbers[0] = 1;
     int size = sizeof(myNumbers); //prints 20 because there are 20 bytes
-    int length = sizeof(myNumbers) / sizeof(myNumbers[0]);
+
+    // char firstName[0];
+    // printf("Enter your first name: ");
+    // scanf("%s", firstName);
+    // printf("Hello %s\n", firstName);
+
+    int myAge = 43;
+    int* ptr = &myAge;
+    printf("%d\n", myAge); //outputs the value of myAge
+    printf("%p\n", &myAge); //outputs the memory address of myAge
+    printf("%p\n", ptr); //outputs the memory address of myAge because the pointer is pointing at it
+    printf("%d\n", *ptr); //dereference so will print 43
+
+    int pointer = 10;
+    // int *ptr = &pointer; // stores the memory address of another variable in its value
+
 
     return 0;
     }
