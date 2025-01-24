@@ -87,6 +87,11 @@ int main()
     int pointer = 10;
     // int *ptr = &pointer; // stores the memory address of another variable in its value
 
+    int array[4] = {25, 50, 75, 100};
+    printf("%p\n", array); //gets the memory address of the array
+    printf("%p\n", &array[0]); //memory address of the first element in the array
+    printf("%d\n", *(numbers + 1));
+    printf("%d", array[1]);
 
     return 0;
     }
