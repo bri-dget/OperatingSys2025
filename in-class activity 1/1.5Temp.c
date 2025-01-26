@@ -1,6 +1,5 @@
-//write a C program that asks user for temp and output 1 if temperature is > 70F and < 85F otherwise put 0
-#include<stdio.h>
-
+#include <stdio.h>
+// 1.5: Write a C program that ask user for temperature and output 1 if temperature > 70F and < 85F, otherwise output 0
 int main(){
     int temp = 0;
     printf("What is the current temperature? ");
